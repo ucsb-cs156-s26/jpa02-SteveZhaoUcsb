@@ -35,4 +35,22 @@ public class DeveloperTest {
         // <https://bit.ly/cs156-s26-teams>
         assertEquals("SteveZhaoUcsb", Developer.getGithubId());
     }
+
+     @Test
+    public void getTeam_returns_team_with_correct_name() {
+        Team  t = Developer.getTeam();
+        assertEquals("s26-15", t.getName());
+    }
+
+    @Test
+    public void getTeam_returns_team_with_correct_members() {
+        Team  t = Developer.getTeam();
+        assertTrue(t.getMembers().contains("Leo"),"Team should contain Leo");
+        assertTrue(t.getMembers().contains("Xuanbo"),"Team should contain Xuanbo");
+        assertTrue(t.getMembers().contains("Katelyn"),"Team should contain Katelyn");
+        assertTrue(t.getMembers().contains("Kristopher"),"Team should contain Kristopher");
+        assertTrue(t.getMembers().contains("Joy"),"Team should contain Joy");
+        assertTrue(t.getMembers().contains("Mikaela"),"Team should contain Mikaela");
+    }
 }
+ 
