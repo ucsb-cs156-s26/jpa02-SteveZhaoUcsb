@@ -4,7 +4,7 @@
 Repo: https://github.com/ucsb-cs156-s26/jpa02-SteveZhaoUcsb
 
 
-Deployed at: https://jpa02-stevezhaoucsb.dokku-15.cs.ucsb.edu/info
+Deployed at: https://stevezhaoucsb.dokku-15.cs.ucsb.edu
 
 
 # About this repo
